@@ -24,11 +24,21 @@ int main()
                   cin>>A[i];
               }
               
-              int curr_steps = 0;
-              for(int i=0; i<=curr_steps && curr_steps<m; i++){
-                  curr_steps = max(curr_steps, A[i] + i);
+              int curr_max = A[0];
+              int steps = A[0];
+              int jumps = 1;
+              int i = 1;
+              
+              for(int i=1; i<m; i++){
+                  if(i == m-1) cout<<jumps;
+                  curr_max = max(curr_max, i + A[i]);
+                  steps--;
+                  if(steps == 0){
+                      jumps++;
+                      if(i >= curr_max) cout<<-1;
+                      steps = curr_max - i;
+                  }
               }
-              if(curr_steps>=m)cout<<"True";
-              else cout<<"False";
+              
         }
 }
