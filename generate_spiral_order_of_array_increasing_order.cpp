@@ -21,12 +21,12 @@ void printDown(int Spiral[n][n], int cnum, int rStart, int rEnd ){
 
 
 void printLeft(int Spiral[n][n], int rnum, int cStart, int cEnd ){
-    for(int i=cStart - 1; i>=cEnd; i--)
+    for(int i=cEnd - 1; i>=cStart; i--)
         Spiral[rnum - 1][i] = val++;
 }
 
 void printTop(int Spiral[n][n], int cnum, int rStart, int rEnd ){
-    for(int i=rStart- 1; i>=rEnd; i--)
+    for(int i=rEnd- 1; i>=rStart; i--)
         Spiral[i][cnum] = val++;
 }
 
@@ -36,10 +36,36 @@ void printSpiral(int Spiral[n][n], int row, int col){
     int rStart = 0, rEnd = row;
     
     while(cStart < cEnd && rStart < rEnd){
-        printRight(Spiral, rStart++, cStart, cEnd);
+        /*printRight(Spiral, rStart++, cStart, cEnd);
         printDown(Spiral, cEnd--, rStart, rEnd);
-        printLeft(Spiral, rEnd--, cEnd, cStart);
-        printTop(Spiral, cStart++, rEnd, rStart);
+        if(rStart<rEnd)
+            printLeft(Spiral, rEnd--, cEnd, cStart);
+        if(cStart<cEnd)
+            printTop(Spiral, cStart++, rEnd, rStart);*/
+        
+        //Best version of code for now from all spirals...
+		
+		for (int i = cStart; i < cEnd; ++i) 
+			Spiral[rStart][i] = val++; 
+		rStart++; 
+
+		for (int i = rStart; i < rEnd; ++i) 
+			Spiral[i][cEnd-1] = val++; 
+		cEnd--; 
+
+		if (rStart < rEnd) 
+		{ 
+			for (int i = cEnd-1; i >= cStart; --i) 
+				Spiral[rEnd-1][i] = val++; 
+			rEnd--; 
+		} 
+
+		if (cStart < cEnd) 
+		{ 
+			for (int i = rEnd-1; i >= rStart; --i) 
+				Spiral[i][cStart] = val++; 
+			cStart++; 
+		}
         
     }
 }
