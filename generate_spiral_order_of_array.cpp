@@ -1,4 +1,4 @@
-//Reverse spiral order traversal of Array
+//generate spiral order of array in decreasing order
 //https://ide.geeksforgeeks.org/sFUw7Lqsr3
 #include<bits/stdc++.h>
 using namespace std;
