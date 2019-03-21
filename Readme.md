@@ -1,7 +1,4 @@
 # Solutions from the book "Elements of Programming Interviews"
-==============================================================
-
-### _Folder "whiteboard_scribble" contains all my attempts to solve/understand the problem on whiteboard_
 
 ## Contents:
 
@@ -37,6 +34,6 @@
 * [Reverse all words of string](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/reverse_all_words_of_string.cpp)
 * [Mnemonics of phone number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/mnemonics_of_phone_number.cpp)
 
+### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
 #### Work in progress.
-Will update the repository with better markdown soon.
