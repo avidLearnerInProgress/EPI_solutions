@@ -33,7 +33,7 @@
 * [Test palindromicity](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/test_palindromicity.cpp)
 * [Reverse all words of string](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/reverse_all_words_of_string.cpp)
 * [Mnemonics of phone number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/mnemonics_of_phone_number.cpp)
-* [Look and say problem](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/look_ans_say_problem.cpp)
+* [Look and say problem](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/look_and_say_problem.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
