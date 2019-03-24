@@ -36,7 +36,7 @@
 * [Look and say problem](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/look_and_say_problem.cpp)
 * [Roman to Integer](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/roman_to_integers.cpp)
 * [Integer to Roman](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/integers_to_roman.cpp)
-* [Compute Valid IP Addresses](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/compute_all_valid_ip_address.cpp)
+* [Compute all valid IP Addresses from string](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/compute_all_valid_ip_address.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
