@@ -38,6 +38,7 @@
 * [Integer to Roman](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/integers_to_roman.cpp)
 * [Compute all valid IP Addresses from string](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/compute_all_valid_ip_address.cpp)
 * [Print sinusoidally](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/print_sinusoidally.cpp)
+* [Run Length Encoding](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/run_length_encoding.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
