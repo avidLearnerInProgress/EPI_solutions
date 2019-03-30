@@ -1,7 +1,6 @@
 //run length encoding;
 //https://ide.geeksforgeeks.org/Ty2FLOcZ3T
 
-
 #include <bits/stdc++.h> 
 using namespace std; 
 
@@ -16,7 +15,6 @@ void printRLE(string str)
 			count++; 
 			i++; 
 		} 
-
 		// Print character and its count 
 		cout << str[i] << count; 
 	} 
