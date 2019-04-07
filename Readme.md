@@ -40,7 +40,7 @@
 * [Print sinusoidally](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/print_sinusoidally.cpp)
 * [Run Length Encoding](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/run_length_encoding.cpp)
 * [Rabin Karp Algorithm - Substring matching](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/rabin_karp_string_matching.cpp)
-* [LinkedList API's]
+* LinkedList Basics:
 	- [Singly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/singly_linked_list_api.cpp)
 	- [Doubly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/doubly_linked_list_api.cpp)
 	- [Circular Singly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/circular_linked_list_api.cpp)
