@@ -40,6 +40,12 @@
 * [Print sinusoidally](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/print_sinusoidally.cpp)
 * [Run Length Encoding](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/run_length_encoding.cpp)
 * [Rabin Karp Algorithm - Substring matching](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/rabin_karp_string_matching.cpp)
+* [LinkedList API's]
+	- [Singly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/singly_linked_list_api.cpp)
+	- [Doubly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/doubly_linked_list_api.cpp)
+	- [Circular Singly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/circular_linked_list_api.cpp)
+	- [Circular Doubly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/circular_doubly_linked_list_api.cpp)
+* [Merge Two Linked Lists](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/merge_two_linked_list.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
