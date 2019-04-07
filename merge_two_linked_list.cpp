@@ -1,10 +1,9 @@
-//singly linked list  insert and delete api - reusable functions
-//https://ide.geeksforgeeks.org/M1lUVBCMaT
+//Merge two linked lists
+//https://ide.geeksforgeeks.org/3fg8sdVw9w
 
 #include<bits/stdc++.h>
 using namespace std;
 
-//Singly Linked List Template
 struct Node{
     int data;
     struct Node* next;
