@@ -46,6 +46,9 @@
 	- [Circular Singly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/circular_linked_list_api.cpp)
 	- [Circular Doubly Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/circular_doubly_linked_list_api.cpp)
 * [Merge Two Linked Lists](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/merge_two_linked_list.cpp)
+	- [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/merge_two_linked_list_alternative.cpp)
+	- [Variant 2](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/merge_two_doubly_linked_list.cpp)
+
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
