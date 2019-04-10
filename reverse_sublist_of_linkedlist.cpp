@@ -1,5 +1,6 @@
 //reverse sublist of list
-//
+//https://ide.geeksforgeeks.org/nkEw2JhDbC
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -7,7 +8,6 @@ struct Node{
     int data;
     struct Node* next;
 };
-struct Node* head;
 
 struct Node* createNode(int data){
     struct Node* tmp = new Node;
@@ -25,7 +25,7 @@ void printLL(struct Node* head){
     cout<<"\n";
 }
 
-void insertAtBegin(int data){
+void insertAtBegin(struct Node* head, int data){
     
     struct Node* newNode = createNode(data);
     if(head == NULL){
@@ -40,31 +40,34 @@ void insertAtBegin(int data){
     }
 }
 
-struct Node* reverseList(){
+struct Node* reverseList(struct Node* head) {
     if(head == NULL) return NULL;
     
     struct Node *curr = head;
     struct Node *prev = NULL;
     struct Node *next;
     
-    while(curr != NULL){
+    while(curr){
         next = curr->next;
         curr->next = prev;
         prev = curr;
         curr = next;
     }
-    head = prev;
-    return head;
+    //head = prev;
+    return prev;
 }
 
-struct Node* reverseSubList(int m, int n){
-    struct Node* start = NULL, prev_start = NULL, end = NULL, next_end = NULL;
+struct Node* reverseSubList(struct Node* head, int m, int n){
+    struct Node* start = NULL;
+    struct Node* prev_start = NULL;
+    struct Node* end = NULL; 
+    struct Node* next_end = NULL;
     struct Node* current = head;
     int i = 1;
     
     if(m == n)return head;
     
-    while(current && i < n){
+    while(current && i <= n){
         if(i < m)prev_start = current;
         if(i == m){
             start = current;
@@ -73,10 +76,9 @@ struct Node* reverseSubList(int m, int n){
             end = current;
             next_end = current->next;
         }
-        i++;
         current = current->next;
+        i++;
     }
-    
     end->next = NULL;
     end = reverseList(start);
     if(prev_start){
@@ -89,19 +91,25 @@ struct Node* reverseSubList(int m, int n){
     return head;
 }
 
-
-int main(){
-    
-    head = NULL;
-    int n; cin>>n;
-    
-    for(int k=0; k<n; k++){
-        int current; cin>>current;
-        insertAtBegin(current);
-    }
-    
-    printLL(head);
-    head = reverseSubList();
-    printLL(head);
-    
-}
+void push(struct Node** head_ref, int new_data) 
+{ 
+    struct Node* new_node = new Node; 
+    new_node->data = new_data; 
+    new_node->next = (*head_ref); 
+    (*head_ref) = new_node; 
+} 
+  
+int main() 
+{ 
+    struct Node* head = NULL; 
+    push(&head, 70); 
+    push(&head, 60); 
+    push(&head, 50); 
+    push(&head, 40); 
+    push(&head, 30); 
+    push(&head, 20); 
+    push(&head, 10); 
+    reverseSubList(head, 3, 6); 
+    printLL(head); 
+    return 0; 
+} 
