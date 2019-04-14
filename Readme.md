@@ -50,7 +50,10 @@
 	- [Variant 2](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/merge_two_doubly_linked_list.cpp)
 * [Reverse sublist of Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/reverse_sublist_of_linked_list.cpp)
 	- [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/reverse_sublist_sizeofk_linked_list.cpp)
-
+	- [Variant 2](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/start_point_of_loop_in_linked_list.cpp)
+	- [Variant 3](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/find_and_remove_loop_in_linked_list.cpp)
+* [Find first overlapping node in 2 non-cyclic Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/find_first_node_in_overlapping_linked_list.cpp)
+	
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
 #### Work in progress.
