@@ -53,6 +53,7 @@
 	- [Variant 2](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/start_point_of_loop_in_linked_list.cpp)
 	- [Variant 3](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/find_and_remove_loop_in_linked_list.cpp)
 * [Find first overlapping node in non-cyclic Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/find_first_node_in_overlapping_linked_list.cpp)
+* [Find first overlapping node in cyclic Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/find_first_overlapping_in_cyclic_linked_list.cpp)
 	
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
