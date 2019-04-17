@@ -55,6 +55,8 @@
 * [Find first overlapping node in non-cyclic Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/find_first_node_in_overlapping_linked_list.cpp)
 * [Find first overlapping node in cyclic Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/find_first_overlapping_in_cyclic_linked_list.cpp)
 * [Remove Kth last node in Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_kth_last_node_in_linked_list.cpp)
+* [Remove duplicate nodes in Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_duplicates_from_sll.cpp)
+	- [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_duplicates_from_sll_k_greater_m.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
