@@ -58,6 +58,7 @@
 * [Remove duplicate nodes in Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_duplicates_from_sll.cpp)
 	- [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_duplicates_from_sll_k_greater_m.cpp)
 * [Cyclic right rotate linked list by k positions](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/cyclic_shift_linked_list_by_k_position.cpp)
+* [Merge even odd linked list](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/merge_even_odd_linked_list.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
