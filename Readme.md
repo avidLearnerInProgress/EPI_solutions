@@ -57,6 +57,7 @@
 * [Remove Kth last node in Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_kth_last_node_in_linked_list.cpp)
 * [Remove duplicate nodes in Linked List](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_duplicates_from_sll.cpp)
 	- [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/remove_duplicates_from_sll_k_greater_m.cpp)
+* [Cyclic right rotate linked list by k positions](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/cyclic_shift_linked_list_by_k_position.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
