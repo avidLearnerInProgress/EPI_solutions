@@ -60,6 +60,7 @@
 * [Cyclic right rotate linked list by k positions](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/cyclic_shift_linked_list_by_k_position.cpp)
 * [Merge even odd linked list](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/merge_even_odd_linked_list.cpp)
 * [Check if singly linked list is palindrome](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/is_sll_palindromic.cpp)
+* [Add 2 numbers represnted by LL](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/add_numbers_represented_by_ll.cpp)
 
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
