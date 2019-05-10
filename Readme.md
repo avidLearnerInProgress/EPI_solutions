@@ -68,8 +68,9 @@
 * [Compute sunset view for building](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/stack_compute_sunset_view_for_building.cpp)
 	- [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/stack_compute_sunset_view_for_building_variant1.cpp)
 * [Compute binary tree in order of increasing length](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_compute_binarytree_line_by_line.cpp)
+  - [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_compute_binarytree_line_by_line_variant1.cpp)
   
-  
+
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
 #### Work in progress.
