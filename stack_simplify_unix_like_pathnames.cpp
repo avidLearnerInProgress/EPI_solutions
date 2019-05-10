@@ -91,7 +91,7 @@ string simplify(string A)
 int main() 
 { 
 	// absolute path which we have to simplify. 
-	string str("/a/./b/../../c/"); 
+	string str = "/a/./b/../../c/"; 
 	string res = simplify(str); 
 	cout << res; 
 	return 0; 
