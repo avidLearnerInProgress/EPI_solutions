@@ -1,3 +1,7 @@
+//compute binary tree with zig zag traversal!!
+//1. Using recursion
+//2. 2 stacks
+//3. 1 queue 
 //https://ide.geeksforgeeks.org/cIUegw22Bn
 
 #include<bits/stdc++.h>
