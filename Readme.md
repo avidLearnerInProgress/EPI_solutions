@@ -70,7 +70,8 @@
 * [Compute binary tree in order of increasing length](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_compute_binarytree_line_by_line.cpp)
   - [Variant 1](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_compute_binarytree_line_by_line_variant1.cpp)
   - [Variant 2](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_compute_binarytree_line_by_line_variant2.cpp)
-  
+* [Queue using Stacks](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_using_stack.cpp)
+
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
 #### Work in progress.
