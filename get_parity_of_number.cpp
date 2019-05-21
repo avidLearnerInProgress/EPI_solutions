@@ -1,5 +1,5 @@
 //get parity of number
-//https://ide.geeksforgeeks.org/MY6TwyGut8
+//https://ide.geeksforgeeks.org/Ap0nT8mZKf
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -7,6 +7,7 @@ using namespace std;
 int mod=1e9+7;
 #define F(a,b,var) for(int var=a;var<b;var++)
 #define FAST_INP  ios_base::sync_with_stdio(false);cin.tie(NULL)
+typedef unsigned long long ll;
 
 bool getParity(int n) { 
     bool parity = 0;
@@ -50,6 +51,17 @@ bool getParityV2(int n){
     return parity_table[n & 0xff]; //0xff --> 11111111 
 }
 
+int getParityV3(ll n){
+	n = n ^ (n >> 32);	
+	n = n ^ (n >> 16);
+	n = n ^ (n >> 8);
+	n = n ^ (n >> 4);
+	n = n ^ (n >> 2);
+	n = n ^ (n >> 1);
+	return n & 1;
+}
+
+
 int main()
  {
 	//code
@@ -65,8 +77,9 @@ int main()
 	            cout<<"even\n";
             cout<<getParityV1(n)<<"\n";
 
-            unsigned int num = 184346774; 
+            int num = 184346774; 
             cout<<getParityV2(num)<<"\n";
+            cout<<getParityV3(num)<<"\n";
         }
 	return 0;
 }
