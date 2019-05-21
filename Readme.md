@@ -74,7 +74,8 @@
 * [Circular queue](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/implement_circular_queue_pie.cpp)
 * [Queue API GetMax](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_using_max_api.cpp)
 * [Compute parity of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/get_parity_of_number.cpp)
-
+* [Swap bits of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/swap_bits_of_number.cpp)
+  
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
 #### Work in progress.
