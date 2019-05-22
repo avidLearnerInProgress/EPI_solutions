@@ -75,6 +75,7 @@
 * [Queue API GetMax](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/queue_using_max_api.cpp)
 * [Compute parity of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/get_parity_of_number.cpp)
 * [Swap bits of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/swap_bits_of_number.cpp)
+* [Reverse bits of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/get_reverese_sequence_of_bits.cpp)
   
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
