@@ -1,4 +1,4 @@
-    //reverse actual bits of number
+//reverse actual bits of number
 //https://ide.geeksforgeeks.org/AplYMAcwAN
 
 #include<bits/stdc++.h>
