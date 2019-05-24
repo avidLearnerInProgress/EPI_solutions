@@ -67,8 +67,26 @@ def callQuickSort():
     low, high = 0, len(A) - 1
     print(quickSort(A, low, high))
 
+#############-----------------------#############
+#https://ide.geeksforgeeks.org/ZZaMfOyMF4
+
+def selectionSort(A):
+    for i in range(len(A)):
+        min_idx = i
+        for j in range(i + 1, len(A)):
+            if A[j] < A[min_idx]:
+                min_idx = j
+    
+        A[i], A[min_idx] = A[min_idx], A[i]
+    return A
+
+def callSelectionSort():
+    A = [10, 80, 60, 40, 90, 30, 70]
+    print(selectionSort(A))
+
 
 if __name__ == "__main__":
     callInsertionSort()
     callQuickSort()
     callBinaryInsertionSort()
+    callSelectionSort()
