@@ -84,9 +84,23 @@ def callSelectionSort():
     A = [10, 80, 60, 40, 90, 30, 70]
     print(selectionSort(A))
 
+#############-----------------------#############
+def bubbleSort(A):
+
+    for i in range(len(A)):
+        for j in range(i + 1, len(A)):
+            if A[i] >= A[j]:
+                A[i], A[j] = A[j], A[i]
+    return A
+
+def callBubbleSort():
+    A = [10, 80, 60, 40, 90, 30, 70]
+    print(bubbleSort(A))
+
 
 if __name__ == "__main__":
     callInsertionSort()
     callQuickSort()
     callBinaryInsertionSort()
     callSelectionSort()
+    callBubbleSort()
