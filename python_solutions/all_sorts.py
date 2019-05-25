@@ -133,6 +133,34 @@ def mergeSort(A):
 def callMergeSort():
     print(mergeSort([10, 5, 4, 7, 9, 21]))
     
+#############-----------------------#############
+def heapify(A, N, i):
+    largest = i
+    left = 2*i + 1
+    right = 2*i + 2
+    if left < N and A[left] > A[largest]:
+        largest = left
+    if right < N and A[right] > A[largest]:
+        largest = right
+    
+    if largest != i:
+        A[i], A[largest] = A[largest], A[i]
+        heapify(A, N, largest)
+
+def heapSort(A):
+    N = len(A)
+
+    for i in range(N, -1, -1): #heapify all the children
+        heapify(A, N, i)
+
+    for i in range(N-1, 0, -1):
+        A[0], A[i] = A[i], A[0]
+        heapify(A, i, 0)
+    return A
+
+def callHeapSort():
+    print(heapSort([10, 5, 4, 7, 9, 21]))
+
 if __name__ == "__main__":
     callInsertionSort()
     callQuickSort()
@@ -140,3 +168,4 @@ if __name__ == "__main__":
     callSelectionSort()
     callBubbleSort()
     callMergeSort()
+    callHeapSort()
