@@ -97,10 +97,46 @@ def callBubbleSort():
     A = [10, 80, 60, 40, 90, 30, 70]
     print(bubbleSort(A))
 
+#############-----------------------#############
+#https://ide.geeksforgeeks.org/WILr2rlh7x
+def mergeSort(A):
+    if len(A) > 1:
+        mid = len(A) // 2
+        L = A[:mid]
+        R = A[mid:]
+        mergeSort(L)
+        mergeSort(R)
+        
+        k = 0
+        i = j = 0
+        
+        while i < len(L) and j < len(R):
+            if L[i] <= R[j]:
+                A[k] = L[i]
+                i += 1
+            else:
+                A[k] = R[j]
+                j += 1
+            k += 1
+        
+        while i < len(L):
+            A[k] = L[i]
+            k += 1
+            i += 1
+        
+        while j < len(R):
+            A[k] = R[j]
+            k += 1
+            j += 1
+    return A
 
+def callMergeSort():
+    print(mergeSort([10, 5, 4, 7, 9, 21]))
+    
 if __name__ == "__main__":
     callInsertionSort()
     callQuickSort()
     callBinaryInsertionSort()
     callSelectionSort()
     callBubbleSort()
+    callMergeSort()
