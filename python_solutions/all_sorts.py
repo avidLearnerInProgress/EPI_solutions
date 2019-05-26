@@ -134,6 +134,7 @@ def callMergeSort():
     print(mergeSort([10, 5, 4, 7, 9, 21]))
     
 #############-----------------------#############
+#https://ide.geeksforgeeks.org/yyweMrKRRr
 def heapify(A, N, i):
     largest = i
     left = 2*i + 1
@@ -161,6 +162,32 @@ def heapSort(A):
 def callHeapSort():
     print(heapSort([10, 5, 4, 7, 9, 21]))
 
+#############-----------------------#############
+#https://ide.geeksforgeeks.org/QRy7CVfXqV
+def countSort(mystr):
+    arr = [x for x in mystr]
+    count = [0 for x in range(256)]
+    result = [0 for x in range(len(arr))]
+    
+    for x in arr:
+        count[ord(x)] += 1
+    
+    for x in range(256):
+        count[x] += count[x-1]
+    
+    for i in range(len(arr)):
+        result[count[ord(arr[i])] - 1] = arr[i]
+        count[ord(arr[i])] -= 1
+    
+    for i in range(len(arr)):
+        arr[i] = result[i]
+    
+    return arr
+
+def callCountSort():
+    print(countSort("geeksforgeeks"))
+
+
 if __name__ == "__main__":
     callInsertionSort()
     callQuickSort()
@@ -169,3 +196,4 @@ if __name__ == "__main__":
     callBubbleSort()
     callMergeSort()
     callHeapSort()
+    callCountSort()
