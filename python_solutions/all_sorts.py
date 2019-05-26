@@ -14,6 +14,7 @@ def callInsertionSort():
     print(insertionSort([4, 3, 2, 9, 10]))
 
 #############-----------------------#############
+# https://ide.geeksforgeeks.org/0uSk3AK9kq
 def binarySearch(arr, value, low, high):
     if high <= low:
         return (low + 1) if value > arr[low] else low;
@@ -43,7 +44,6 @@ def callBinaryInsertionSort():
     print(binaryInsertionSort([4, 3, 2, 9, 10]))
 
 #############-----------------------#############
-
 #https://ide.geeksforgeeks.org/ub0kWiG01z
 def lomutoPartition(A, low, high):
     pivot = A[high]
