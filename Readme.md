@@ -76,7 +76,8 @@
 * [Compute parity of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/get_parity_of_number.cpp)
 * [Swap bits of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/swap_bits_of_number.cpp)
 * [Reverse bits of number](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/get_reverese_sequence_of_bits.cpp)
-  
+* [Closest next greatest number with same set bits](https://github.com/avidLearnerInProgress/EPI_solutions/blob/master/closest_next_greater_number_with_same_bits.cpp)
+
 ### Folder _"whiteboard_scribble"_ contains all my attempts to solve/understand the problem on whiteboard
 
 #### Work in progress.
